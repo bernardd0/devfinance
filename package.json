@@ -1,0 +1,25 @@
+{
+  "name": "devfinance",
+  "version": "1.0.0",
+  "description": "App para controle financeiro para programadores",
+  "main": "scripts.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernardd0/devfinance.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bernardd0/devfinance/issues"
+  },
+  "homepage": "https://github.com/bernardd0/devfinance#readme"
+}
