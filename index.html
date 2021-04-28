@@ -46,7 +46,7 @@
 
             <section id="transaction">
                 <h2 class="sr-only">Transações</h2>
-                <a href="#" class="button new" onclick="Modal.open()">+ Nova Transação</a>
+                <a href="#" class="button new" onclick="Modal.openClose()">+ Nova Transação</a>
                 <table id="data-table">
                     <thead>
                         <tr>
@@ -57,33 +57,6 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <!--{% for card in cards%}-->
-                            <!--{% if button == 'expense' %}-->
-                        <tr>
-                            <td class="description">Luz</td>
-                            <td class="expense">R$ -500,00</td>
-                            <td>13/04/2020</td>
-                            <td>
-                                 <a href=""><img src="./assets/minus.svg" alt="Imagem de subtrair"></a>
-                            </td>
-                        </tr>
-                        <!--{% endfor %}-->
-                        <tr>
-                            <td class="description">Criação de site</td>
-                            <td class="income">R$ 5000,00</td>
-                            <td>13/04/2020</td>
-                            <td>
-                                 <a href=""><img src="./assets/minus.svg" alt="Imagem de subtrair"></a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="description">Internet</td>
-                            <td class="expense">R$ -200,00</td>
-                            <td>13/04/2020</td>
-                            <td>
-                                 <a href=""><img src="./assets/minus.svg" alt="Imagem de subtrair"></a>
-                            </td>
-                        </tr>
                     </tbody>
                 </table>
             </section>
@@ -108,7 +81,7 @@
                             <input type="date" name="date" id="date" placeholder="01/01/2021">
                         </div>
                         <div class="input-group actions">
-                            <a href="#" class="button cancel" onclick="Modal.close()">Cancelar</a>
+                            <a href="#" class="button cancel" onclick="Modal.openClose()">Cancelar</a>
                             <button type="submit" onclick="">Salvar</button>
                         </div>
                     </form>
