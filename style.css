@@ -183,7 +183,7 @@ table tbody tr td:last-child  {
     justify-content: center;
     opacity: 0;
     visibility: hidden;
-    /* z-index: 999;  Applicable only with have any conflict*/
+    z-index: 999;  /*Applicable only with have any conflict*/
 }
 .modal-overlay.active {
     opacity: 1;
@@ -195,7 +195,7 @@ table tbody tr td:last-child  {
     padding: 2.4rem;
     width: 93%;
     max-width: 500px;
-    /* z-index: 1;  Applicable only with have any conflict*/
+    z-index: 1;  /*Applicable only with have any conflict*/
 }
 
 /*FORM  ============================================================*/
